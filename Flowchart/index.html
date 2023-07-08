@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="flex">
+        <div class="container">
+            <div class="question question1 inview">
+                <input type="hidden" class="question-number" value="1">
+                <h1 class="title">Q1. あなたの年齢は次のうちのどれですか？</h1>
+                <ul class="ul">
+                    <li class="list">
+                        <button id="under-twenty" class="btn">20歳以下</button>
+                    </li>
+                    <li class="list">
+                        <button id="over-twenty" class="btn">20歳以上</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="question question2 after-question">
+                <input type="hidden" class="question-number" value="2">
+                <h1 class="title">Q2. あなたの好きなスポーツはどれですか？</h1>
+                <ul class="ul">
+                    <li class="list">
+                        <button id="soccer" class="btn">サッカー</button>
+                    </li>
+                    <li class="list">
+                        <button id="baseball" class="btn">野球</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
